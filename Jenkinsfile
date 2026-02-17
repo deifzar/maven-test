@@ -11,7 +11,7 @@ mavenPipeline {
   runSBOM                 = true
   runDeployment           = true
   
-  buildingImage           = 'golang:1.24'
+  buildingImage           = 'maven:3.9.6-eclipse-temurin-17'
 
   scaSeverity             = 'CRITICAL,HIGH'
   trivySkipDirs           = []
